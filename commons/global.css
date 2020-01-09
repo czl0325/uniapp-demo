@@ -1,0 +1,195 @@
+@import "../colorui/main.css";
+@import "../colorui/icon.css";
+@import "uni.css";
+@import "iconfont.css";
+
+.g-page {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.g-page .g-content {
+    border-width: 0;
+    overflow: auto;
+    overflow-x: hidden;
+    position: relative;
+    flex: 1
+}
+
+.g-page .g-footer {
+    z-index: 9999;
+    position: relative;
+    min-height: 3rem;
+}
+
+.g-line-clamp {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal !important;
+}
+
+.g-margin0 {
+    margin: 0 auto;
+}
+
+.g-caption {
+    padding: .3125rem 1rem;
+    color: #6d6d72;
+    font-size: .875rem;
+}
+
+.g-status-bar {
+    height: var(--status-bar-height);
+    width: 100%;
+    background-color: #007AFF;
+
+}
+
+.g-status-place {
+    height: var(--status-bar-height);
+    width: 100%;
+    position: fixed;
+    background-color: #007AFF;
+    top: 0;
+    z-index: 999;
+}
+
+[class*="hm-icon"] {
+    font-family: "hm-iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.cu-list.grid>.cu-item [class*=hm-icon] {
+    position: relative;
+    display: block;
+    margin-top: 9px;
+    width: 100%;
+    font-size: 23px;
+}
+
+.text-success {
+    color: #04be02 !important
+}
+.text-primary {
+    color: #0f82fe !important
+}
+.text-info {
+    color: #10aeff !important
+}
+.text-warning {
+    color: #ffa800 !important
+}
+.text-danger {
+    color: #f44f4f !important
+}
+.text-amber {
+    color: #fff !important;
+}
+.text-indigo {
+    color: #fff !important;
+}
+.text-deeppurple {
+    color: #fff !important;
+}
+.text-lightblue {
+    border-color: rgba(3,155,229,0.9) !important;
+}
+.text-teal {
+    color: #fff !important;
+}
+.text-lightgreen {
+    color: #fff !important;
+}
+.text-lime {
+    color: #fff !important;
+}
+.text-deeporange {
+    color: #fff !important;
+}
+
+.bg-amber {
+    background-color: #ffb300 !important;
+    color: #fff !important;
+}
+.bg-indigo {
+    background-color: #3949ab !important;
+    color: #fff !important;
+}
+.bg-deeppurple {
+    background-color: #5e35b1 !important;
+    color: #fff !important;
+}
+.bg-lightblue {
+    background-color: #039be5 !important;
+    border-color: rgba(3,155,229,0.9) !important;
+}
+.bg-teal {
+    background-color: #00897b !important;
+    color: #fff !important;
+}
+.bg-lightgreen {
+    background-color: #7cb342 !important;
+    color: #fff !important;
+}
+.bg-lime {
+    background-color: #c0ca33 !important;
+    color: #fff !important;
+}
+.bg-deeporange {
+    background-color: #f4511e !important;
+    color: #fff !important;
+}
+.bg-footer {
+    background-color: #f9f9f9 !important;
+    color: #999999 !important;
+}
+.bg-success {
+    background-color: #04be02 !important;
+    color: #ffffff !important;
+}
+.bg-primary {
+    background-color: #0f82fe !important;
+    color: #ffffff !important;
+}
+.bg-info {
+    background-color: #10aeff !important;
+    color: #ffffff !important;
+}
+.bg-warning {
+    background-color: #ffa800 !important;
+    color: #ffffff !important;
+}
+.bg-danger {
+    background-color: #f44f4f !important;
+    color: #ffffff !important;
+}
+
+.border-success {
+    border: 1px solid #04be02 !important;
+}
+.border-primary {
+    border: 1px solid #0f82fe !important;
+}
+.border-info {
+    border: 1px solid #10aeff !important;
+}
+.border-warning {
+    border: 1px solid #ffa800 !important;
+}
+.border-danger {
+    border: 1px solid #f44f4f !important;
+}
